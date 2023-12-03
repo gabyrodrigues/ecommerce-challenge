@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://picsum.photos/260/160",
+      "name": "Armário legítimo",
+      "description": "Suspendisse aliquam dolor vitae purus tristique, et ullamcorper enim suscipit. Nam sodales purus in ipsum placerat faucibus. Donec dignissim blandit tortor id laoreet. Fusce vehicula turpis felis, sed imperdiet velit tempor in. Etiam et sapien vehicula, suscipit nisl quis, convallis magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse eget magna convallis enim ultricies viverra. Nullam nec semper neque.",
+      "price": 39.9
+    },
+    {
+      "id": 2,
+      "image": "https://picsum.photos/260/160",
+      "name": "Mala inteligente",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis mollis lacus metus, a vestibulum ligula maximus in. Aenean blandit lacus non purus blandit, vitae convallis lacus rutrum. Maecenas gravida pretium dictum. Morbi sed finibus augue. Nam hendrerit ante vel massa lobortis eleifend. Vestibulum eleifend, odio at aliquam placerat, ligula ex vestibulum massa, ac rutrum lorem lorem tincidunt mauris.",
+      "price": 97.9
+    },
+    {
+      "id": 3,
+      "image": "https://picsum.photos/260/160",
+      "name": "Grampo Romântico",
+      "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sem sapien, consectetur nec mauris posuere, imperdiet pulvinar massa. Quisque posuere suscipit eros non finibus. Proin a tincidunt mauris, sit amet viverra ipsum. Nam nec vestibulum dolor, id elementum sem. Praesent vestibulum auctor enim, ac commodo elit volutpat id. Nulla vulputate diam turpis, sit amet aliquam mauris aliquam nec.",
+      "price": 75.9
+    },
+    {
+      "id": 4,
+      "image": "https://picsum.photos/260/160",
+      "name": "Base Natural",
+      "description": "Etiam lacinia quam quis tortor bibendum, vel hendrerit arcu gravida. Aliquam a dui dolor. Aenean mattis consectetur ex non porttitor. Mauris quis tincidunt elit, non aliquet nibh. Mauris sodales varius lectus sit amet sodales. Fusce ac erat vestibulum lacus consectetur tincidunt.",
+      "price": 136.9
+    },
+    {
+      "id": 5,
+      "image": "https://picsum.photos/260/160",
+      "name": "Foguete Excelente",
+      "description": "Morbi malesuada, diam ac molestie fringilla, urna ligula convallis enim, et hendrerit ligula turpis id nisi. In varius libero non vehicula commodo. Phasellus a purus quis ipsum bibendum feugiat sit amet hendrerit risus. Quisque quis felis quis massa finibus vehicula et ut purus.",
+      "price": 88.9
+    },
+    {
+      "id": 6,
+      "image": "https://picsum.photos/260/160",
+      "name": "Caneca Quente",
+      "description": "Aliquam dapibus imperdiet odio id viverra. Nam vulputate erat eu pulvinar sagittis. Nulla pretium ornare pellentesque. Aenean et sem lacus. Cras volutpat, mi vehicula porta eleifend, eros tortor fringilla nisi, sed gravida quam nisi et arcu. Nulla facilisi. Integer egestas lacus at ipsum efficitur tristique",
+      "price": 10.9
+    },
+    {
+      "id": 7,
+      "image": "https://picsum.photos/260/160",
+      "name": "Tecido Intenso",
+      "description": "Raesent vestibulum auctor enim, ac commodo elit volutpat id. Nulla vulputate diam turpis, sit amet aliquam mauris aliquam nec. Pellentesque commodo a purus at rutrum. Sed a lectus sit amet enim luctus fringilla. Fusce sed quam mauris. ",
+      "price": 11.9
+    },
+    {
+      "id": 8,
+      "image": "https://picsum.photos/260/160",
+      "name": "Revista Sublime",
+      "description": "Nullam vitae tempus nunc. Ut posuere ante id dui rhoncus tempor. Ut rutrum felis vitae volutpat accumsan. Vestibulum tristique pellentesque augue sit amet scelerisque. Nam vitae maximus augue. Pellentesque tortor neque, accumsan id vulputate in, vehicula at libero. Etiam sit amet sapien elit. Donec euismod pulvinar neque eu ultricies. Fusce et maximus elit. Aenean lectus nibh, accumsan non bibendum at, dictum ac erat. ",
+      "price": 7.9
+    }
+  ]
+}

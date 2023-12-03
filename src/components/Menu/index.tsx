@@ -6,24 +6,26 @@ import { IconHeartFilled, IconShoppingCartFilled } from "@tabler/icons-react";
 
 export function Menu() {
   return (
-    <Flex className="p-4 bg-base-mainBg justify-between">
-      <Link to="/">
-        <img
-          src={logo}
-          alt="Logo Acme Inc."
-          className="w-32"
-        />
-      </Link>
+    <Flex className="p-4 bg-base-mainBg justify-center">
+      <Flex className="justify-between px-3 max-w-screen-xl w-full">
+        <Link to="/">
+          <img
+            src={logo}
+            alt="Logo Acme Inc."
+            className="w-32"
+          />
+        </Link>
 
-      <Group>
-        <StyledButton variant="outline">
-          <IconHeartFilled size={24} />
-        </StyledButton>
-        <StyledButton variant="outlineSecondary">
-          <IconShoppingCartFilled size={24} />
-        </StyledButton>
-        <StyledButton className="px-5">Login</StyledButton>
-      </Group>
+        <Group>
+          <StyledButton variant="outline">
+            <IconHeartFilled size={24} />
+          </StyledButton>
+          <StyledButton variant="outlineSecondary">
+            <IconShoppingCartFilled size={24} />
+          </StyledButton>
+          <StyledButton className="px-5">Login</StyledButton>
+        </Group>
+      </Flex>
     </Flex>
   );
 }

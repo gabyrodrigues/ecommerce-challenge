@@ -4,29 +4,30 @@ import { IconHeartFilled, IconShoppingCartFilled } from "@tabler/icons-react";
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-interface StyledButtonProps {
+export interface ProductProps {
   className?: string;
   id: string;
   children?: ReactNode;
   image: string;
+  alt: string;
   name: string;
   price: string;
 }
 
-export function ProductCard(props: StyledButtonProps) {
-  const { className, id, image, name, price } = props;
+export function ProductCard(props: ProductProps) {
+  const { className, id, image, name, price, alt } = props;
 
   return (
     <Card
       padding="lg"
       radius="md"
-      className={`${className} bg-base-lightGray`}>
+      className={`${className} bg-base-lightGray rounded-none`}>
       <Card.Section>
         <Link to={`/products/${id}`}>
           <Image
             src={image}
             height={160}
-            alt="Norway"
+            alt={alt}
           />
         </Link>
       </Card.Section>
@@ -52,7 +53,7 @@ export function ProductCard(props: StyledButtonProps) {
               <IconHeartFilled size={24} />
             </StyledButton>
           </Tooltip>
-          <Tooltip label="Add ao Carrinho">
+          <Tooltip label="Adicionar ao Carrinho">
             <StyledButton variant="outlineSecondary">
               <IconShoppingCartFilled size={24} />
             </StyledButton>
